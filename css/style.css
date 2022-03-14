@@ -228,6 +228,11 @@ footer div p{
     height: 164px;
     background-color: white;
     display: inline-block;
+    transition: all 2s;
+}
+
+.cajaServicios:hover{
+    transform: translate(20px,20px);
 }
 
 .imagenesClientes:hover{
