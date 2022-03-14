@@ -225,7 +225,7 @@ footer div p{
     display: inline-block;
 }
 
-.cajaServicios:hover{
+.tamanoCajasClientes:hover{
     border-style: solid;
     border-color:#37b5c0;
 }
