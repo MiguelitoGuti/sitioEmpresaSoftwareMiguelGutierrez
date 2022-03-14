@@ -69,6 +69,11 @@ nav{
 
 .imagenSubNovedades{
     padding-top: 10px;
+    transition: all 2s;
+}
+
+.imagenSubNovedades:hover{
+    transform: translate(10px,20px);
 }
 
 h2{
