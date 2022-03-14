@@ -224,12 +224,25 @@ footer div p{
     height: 164px;
     background-color: white;
     display: inline-block;
-    transition: all 2s;
 }
 
 .cajaServicios:hover{
-    transform: translate(20px,20px);
-    background-image: linear-gradient(45deg, #085078, #85d8ce);
+    animation: animacionServicios 5s;
+}
+
+@keyframes animacionServicios{
+    0%{
+        transform: translate(20px,20px);
+    }
+    40%{
+        background-image: linear-gradient(45deg, #085078, #85d8ce);
+    }
+    80%{
+        border: 5px solid white;
+    }
+    100%{
+        border: 5px solid white;
+    }
 }
 
 .imagenesClientes:hover{
